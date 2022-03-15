@@ -49,7 +49,6 @@
             this.label1.Size = new System.Drawing.Size(149, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Ordina una Pizza!";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -107,6 +106,7 @@
             this.btnOrdina.TabIndex = 6;
             this.btnOrdina.Text = "Ordina!";
             this.btnOrdina.UseVisualStyleBackColor = true;
+            this.btnOrdina.Click += new System.EventHandler(this.btnOrdina_Click);
             // 
             // txtQuant
             // 
@@ -114,7 +114,6 @@
             this.txtQuant.Name = "txtQuant";
             this.txtQuant.Size = new System.Drawing.Size(150, 31);
             this.txtQuant.TabIndex = 7;
-            this.txtQuant.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // lstPizza
             // 
@@ -152,7 +151,6 @@
             this.Controls.Add(this.label1);
             this.Name = "frmMain";
             this.Text = "Pizzeria \"Da Fino\"";
-            this.Load += new System.EventHandler(this.frmMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
