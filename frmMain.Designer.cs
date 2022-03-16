@@ -38,6 +38,9 @@
             this.txtQuant = new System.Windows.Forms.TextBox();
             this.lstPizza = new System.Windows.Forms.ListBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblMarg = new System.Windows.Forms.Label();
+            this.lbl4stag = new System.Windows.Forms.Label();
+            this.lblVerd = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -134,11 +137,38 @@
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             // 
+            // lblMarg
+            // 
+            this.lblMarg.AutoSize = true;
+            this.lblMarg.Location = new System.Drawing.Point(447, 342);
+            this.lblMarg.Name = "lblMarg";
+            this.lblMarg.Size = new System.Drawing.Size(0, 25);
+            this.lblMarg.TabIndex = 10;
+            // 
+            // lbl4stag
+            // 
+            this.lbl4stag.AutoSize = true;
+            this.lbl4stag.Location = new System.Drawing.Point(447, 394);
+            this.lbl4stag.Name = "lbl4stag";
+            this.lbl4stag.Size = new System.Drawing.Size(0, 25);
+            this.lbl4stag.TabIndex = 11;
+            // 
+            // lblVerd
+            // 
+            this.lblVerd.AutoSize = true;
+            this.lblVerd.Location = new System.Drawing.Point(447, 451);
+            this.lblVerd.Name = "lblVerd";
+            this.lblVerd.Size = new System.Drawing.Size(0, 25);
+            this.lblVerd.TabIndex = 12;
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(574, 534);
+            this.Controls.Add(this.lblVerd);
+            this.Controls.Add(this.lbl4stag);
+            this.Controls.Add(this.lblMarg);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lstPizza);
             this.Controls.Add(this.txtQuant);
@@ -169,5 +199,8 @@
         private TextBox txtQuant;
         private ListBox lstPizza;
         private PictureBox pictureBox1;
+        private Label lblMarg;
+        private Label lbl4stag;
+        private Label lblVerd;
     }
 }

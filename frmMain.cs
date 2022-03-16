@@ -2,7 +2,7 @@ namespace AS2122_3G_INF_UbaldiEdoardo_Pizzeria
 {
     public partial class frmMain : Form
     {
-        int[] arrayNumeri = new int[3];
+        int[] arrayPizza = new int[3];
         int tipoPizza;
         public frmMain()
         {
@@ -25,7 +25,7 @@ namespace AS2122_3G_INF_UbaldiEdoardo_Pizzeria
                         tipoPizza = 2;
                         break;
                 }
-
+                arrayPizza[tipoPizza] += Convert.ToInt32(txtQuant.Text);
             }
         }
     }
